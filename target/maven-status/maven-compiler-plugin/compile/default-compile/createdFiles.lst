@@ -1,0 +1,3 @@
+com\ecommerce\pageObjects\MainPage.class
+com\ecommerce\utilities\ReadConfig.class
+com\ecommerce\testCases\BaseClass.class
