@@ -4,12 +4,12 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.ecommerce.testCases.TC_AutoSearchTest_001">
+      <class name="com.ecommerce.testCases.TC_DatePickerTest_002">
         <methods>
-          <include name="AutoSearchTest"/>
+          <include name="DataPickerTest"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.ecommerce.testCases.TC_AutoSearchTest_001 -->
+      </class> <!-- com.ecommerce.testCases.TC_DatePickerTest_002 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

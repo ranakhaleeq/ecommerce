@@ -19,7 +19,8 @@ public class BaseClass {
 	WebDriver driver; 
 	
 	ReadConfig readConfig = new ReadConfig();
-	public String baseUrl = readConfig.getBaseURL();
+//	public String baseUrl_001 = "https://www.bing.com/?toWww=1&redig=84E37A62F9D840E1B477FC569FDE59C4";
+	public String baseUrl_002 = "https://www.redbus.in/bus-tickets";
 	
 	@Parameters("browser")
 	@BeforeClass
@@ -29,12 +30,13 @@ public class BaseClass {
 		
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-			driver.get(baseUrl);
+			driver.get(baseUrl_002);
 		}
+		
 		if(browser.equals("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
-			driver.get(baseUrl);
+			driver.get(baseUrl_002);
 		}
 		
 		driver.manage().window().maximize();

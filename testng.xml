@@ -6,7 +6,10 @@
   	<parameter name="browser" value="chrome"></parameter> 
   
     <classes>
+    
+      <class name="com.ecommerce.testCases.TC_DatePickerTest_002"/>
       <class name="com.ecommerce.testCases.TC_AutoSearchTest_001"/>
+      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
