@@ -14,7 +14,7 @@ public class TC_DatePickerTest_002 extends BaseClass{
 	boolean dateFound = true;
 	String selectedYear, selectedMonth, selectedDate;
 	
-	@Test
+	@Test(enabled = true, priority=1, alwaysRun = true)
 	public void DataPickerTest() throws InterruptedException {
 		
 		DatepickerPage datePickerPage = new DatepickerPage(driver);

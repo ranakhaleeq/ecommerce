@@ -7,7 +7,7 @@ import com.ecommerce.pageObjects.AutoSearchPage;
 
 public class TC_AutoSearchTest_001 extends BaseClass{
 	
-	@Test(enabled = false)
+	@Test(enabled = true)
 	public void AutoSearchTest() throws InterruptedException {
 		
 		AutoSearchPage autoSearchPage = new AutoSearchPage(driver);
