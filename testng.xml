@@ -2,30 +2,38 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="tests" thread-count="2">
 
-  <test name="Test1">
-  
-  	<parameter name="browser" value="chrome"></parameter> 
-  	<parameter name="url" value="https://www.redbus.in/bus-tickets"></parameter>
-    
-    <classes>
-    
-      <class name="com.ecommerce.testCases.TC_DatePickerTest_002"/>
-     
-      
-    </classes>
-  </test> <!-- Test -->
-  
-    <test name="Test2">
-  
-  	<parameter name="browser" value="chrome"></parameter> 
-  	<parameter name="url" value="no link available"></parameter>
-    
-    <classes>
-    
-      <class name="com.ecommerce.testCases.TC_AutoSearchTest_001"/>
-      
-    </classes>
-  </test> <!-- Test -->
-  
-</suite> <!-- Suite -->
+	<listeners>
+
+		<listener class-name="com.ecommerce.utilities.Reporting"></listener>
+		<listener class-name="com.ecommerce.testCases.Login_TC_001"></listener>
+		<listener class-name="com.ecommerce.testCases.Profile_TC_002"></listener>
+
+	</listeners>
+
+	<test name="Profile Visit">
+
+		<parameter name="browser" value="chrome"></parameter>
+		<parameter name="url" value="https://stackoverflow.com/users/login"></parameter>
+
+		<classes>
+
+			<class name="com.ecommerce.testCases.Login_TC_001" />
+
+		</classes>
+	</test>
+
+<!-- 	<test name="Shotcut Keys">
+
+		<parameter name="browser" value="firefox"></parameter>
+		<parameter name="url" value="https://stackoverflow.com/users/login"></parameter>
+
+		<classes>
+
+			<class name="com.ecommerce.testCases.Profile_TC_002" />
+
+		</classes>
+	</test> -->
+
+
+</suite> 
  

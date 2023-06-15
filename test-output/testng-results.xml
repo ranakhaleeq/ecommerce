@@ -1,57 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-28T13:04:53 PKT" name="Suite" finished-at="2022-06-28T13:05:15 PKT" duration-ms="22014">
+  <suite started-at="2023-06-15T03:55:13 PKT" name="Suite" finished-at="2023-06-15T03:55:13 PKT" duration-ms="0">
     <groups>
     </groups>
-    <test started-at="2022-06-28T13:04:53 PKT" name="Test2" finished-at="2022-06-28T13:05:05 PKT" duration-ms="11180">
-      <class name="com.ecommerce.testCases.TC_AutoSearchTest_001">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.ecommerce.testCases.TC_AutoSearchTest_001@7f3b84b8]" started-at="2022-06-28T13:04:54 PKT" name="setup" finished-at="2022-06-28T13:05:01 PKT" duration-ms="7511" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[no link available]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="AutoSearchTest()[pri:0, instance:com.ecommerce.testCases.TC_AutoSearchTest_001@7f3b84b8]" started-at="2022-06-28T13:05:01 PKT" name="AutoSearchTest" finished-at="2022-06-28T13:05:05 PKT" duration-ms="3614" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AutoSearchTest -->
-      </class> <!-- com.ecommerce.testCases.TC_AutoSearchTest_001 -->
-    </test> <!-- Test2 -->
-    <test started-at="2022-06-28T13:04:53 PKT" name="Test1" finished-at="2022-06-28T13:05:15 PKT" duration-ms="22014">
-      <class name="com.ecommerce.testCases.TC_DatePickerTest_002">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.ecommerce.testCases.TC_DatePickerTest_002@44ebcd03]" started-at="2022-06-28T13:04:54 PKT" name="setup" finished-at="2022-06-28T13:05:10 PKT" duration-ms="16213" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[https://www.redbus.in/bus-tickets]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="DataPickerTest()[pri:1, instance:com.ecommerce.testCases.TC_DatePickerTest_002@44ebcd03]" started-at="2022-06-28T13:05:10 PKT" name="DataPickerTest" finished-at="2022-06-28T13:05:15 PKT" duration-ms="5766" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- DataPickerTest -->
-      </class> <!-- com.ecommerce.testCases.TC_DatePickerTest_002 -->
-    </test> <!-- Test1 -->
   </suite> <!-- Suite -->
 </testng-results>

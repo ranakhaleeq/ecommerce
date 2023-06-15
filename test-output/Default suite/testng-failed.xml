@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ecommerce.testCases.TC_DatePickerTest_002">
+      <class name="com.ecommerce.testCases.Login_TC_001">
         <methods>
-          <include name="DataPickerTest"/>
+          <include name="login"/>
           <include name="setup"/>
+          <include name="searchQuery"/>
+          <include name="visitProfile"/>
         </methods>
-      </class> <!-- com.ecommerce.testCases.TC_DatePickerTest_002 -->
+      </class> <!-- com.ecommerce.testCases.Login_TC_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
