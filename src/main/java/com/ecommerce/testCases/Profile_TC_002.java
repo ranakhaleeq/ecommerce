@@ -50,6 +50,8 @@ public class Profile_TC_002 extends Setup implements IInvokedMethodListener, ITe
 		profilePage = new ProfilePage(driver);
 		profilePage.openSettings();
 		homePage.rejectCookies();
+		
+		//Assertion
 		Assert.assertTrue(profilePage.enableShotcuts());
 		
 		JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;

@@ -29,7 +29,7 @@ public class ProfilePage {
 	@CacheLookup 
 	WebElement btnSettings;
 	
-	@FindBy(id = "keyboardShortcut")
+	@FindBy(id = "keyboardShortcuts")
 	@CacheLookup
 	WebElement toggleBtnShortcuts;
 	
@@ -40,16 +40,16 @@ public class ProfilePage {
 	
 	public boolean enableShotcuts() {
 		
-//		JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
-//		javascriptExecutor.executeScript("arguments[0].scrollIntoView(true)", toggleBtnShortcuts);
-//		try {
-//			Thread.sleep(2000);
-//		} catch (InterruptedException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-//		javascriptExecutor.executeScript("arguments[0].click()", toggleBtnShortcuts);
-		toggleBtnShortcuts.click();
+		JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
+		javascriptExecutor.executeScript("arguments[0].scrollIntoView(true)", toggleBtnShortcuts);
+		try {
+			Thread.sleep(2000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		javascriptExecutor.executeScript("arguments[0].click()", toggleBtnShortcuts);
+	
 		return false;
 		
 	}

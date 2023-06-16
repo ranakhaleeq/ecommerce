@@ -66,6 +66,7 @@ public class Login_TC_001 extends Setup implements IExecutionListener{ //, ITest
 		
 		profilePage.openSettings();
 		homePage.rejectCookies();
+		
 		Assert.assertTrue(profilePage.enableShotcuts());
 		
 		JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;

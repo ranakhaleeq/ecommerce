@@ -4,7 +4,7 @@
 
 	<listeners>
 
-		<listener class-name="com.ecommerce.utilities.Reporting"></listener>
+	<!-- 	<listener class-name="com.ecommerce.utilities.Reporting"></listener> -->
 		<listener class-name="com.ecommerce.testCases.Login_TC_001"></listener>
 		<listener class-name="com.ecommerce.testCases.Profile_TC_002"></listener>
 
