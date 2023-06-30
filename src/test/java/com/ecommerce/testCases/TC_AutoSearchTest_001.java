@@ -1,9 +1,10 @@
 package com.ecommerce.testCases;
 
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.WebElement; 
 import org.testng.annotations.Test;
 
 import com.ecommerce.pageObjects.AutoSearchPage;
+
 
 public class TC_AutoSearchTest_001 extends BaseClass{
 	

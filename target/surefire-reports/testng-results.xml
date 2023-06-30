@@ -1,17 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-11T23:29:00 PKT" name="Suite" finished-at="2022-06-11T23:29:43 PKT" duration-ms="43671">
+  <suite started-at="2023-06-30T06:49:53 PKT" name="Suite" finished-at="2023-06-30T06:50:17 PKT" duration-ms="23926">
     <groups>
     </groups>
-    <test started-at="2022-06-11T23:29:00 PKT" name="Test" finished-at="2022-06-11T23:29:43 PKT" duration-ms="43671">
-      <class name="com.ecommerce.testCases.BaseClass">
-        <test-method signature="start()[pri:0, instance:com.ecommerce.testCases.BaseClass@510f3d34]" started-at="2022-06-11T23:29:00 PKT" name="start" finished-at="2022-06-11T23:29:43 PKT" duration-ms="43609" status="PASS">
+    <test started-at="2023-06-30T06:49:53 PKT" name="Profile Visit" finished-at="2023-06-30T06:50:17 PKT" duration-ms="23926">
+      <class name="com.ecommerce.testCases.Login_TC_001">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:com.ecommerce.testCases.Login_TC_001@d9345cd]" started-at="2023-06-30T06:49:53 PKT" name="setup" finished-at="2023-06-30T06:50:06 PKT" duration-ms="12921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://stackoverflow.com/users/login]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- start -->
-      </class> <!-- com.ecommerce.testCases.BaseClass -->
-    </test> <!-- Test -->
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:1, instance:com.ecommerce.testCases.Login_TC_001@d9345cd]" started-at="2023-06-30T06:50:06 PKT" name="login" finished-at="2023-06-30T06:50:07 PKT" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="visitProfile()[pri:2, instance:com.ecommerce.testCases.Login_TC_001@d9345cd]" started-at="2023-06-30T06:50:07 PKT" name="visitProfile" finished-at="2023-06-30T06:50:17 PKT" depends-on-methods="com.ecommerce.testCases.Login_TC_001.login" duration-ms="9912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- visitProfile -->
+        <test-method signature="searchQuery()[pri:3, instance:com.ecommerce.testCases.Login_TC_001@d9345cd]" started-at="2023-06-30T06:50:17 PKT" name="searchQuery" finished-at="2023-06-30T06:50:17 PKT" depends-on-methods="com.ecommerce.testCases.Login_TC_001.visitProfile" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchQuery -->
+      </class> <!-- com.ecommerce.testCases.Login_TC_001 -->
+    </test> <!-- Profile Visit -->
   </suite> <!-- Suite -->
 </testng-results>

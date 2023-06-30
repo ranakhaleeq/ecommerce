@@ -1,10 +1,9 @@
 package com.ecommerce.testCases;
 
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver; 
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import com.ecommerce.pageObjects.DatepickerPage;
 import com.github.dockerjava.api.model.Driver;
 
 public class TC_DatePickerTest_002 extends BaseClass{

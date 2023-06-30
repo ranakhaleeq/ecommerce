@@ -1,2 +1,2 @@
-cd C:\Users\dell\eclipse-workspace\E-Commerce
+cd C:\Users\dell\eclipse-workspace\data\E-Commerce
 mvn clean install
